@@ -1,0 +1,11 @@
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\bin\Debug\net8.0\OmniRoute.Core.deps.json
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\bin\Debug\net8.0\OmniRoute.Core.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\bin\Debug\net8.0\OmniRoute.Core.pdb
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.AssemblyInfoInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.AssemblyInfo.cs
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.csproj.CoreCompileInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\refint\OmniRoute.Core.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.pdb
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\ref\OmniRoute.Core.dll

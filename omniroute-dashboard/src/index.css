@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Optional global utility overrides */
+body {
+  background-color: #f8fafc;
+  margin: 0;
+}

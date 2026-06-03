@@ -1,0 +1,17 @@
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Infrastructure.deps.json
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Infrastructure.runtimeconfig.json
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Infrastructure.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Infrastructure.pdb
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Core.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\bin\Debug\net8.0\OmniRoute.Core.pdb
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.AssemblyInfo.cs
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRout.A294D07E.Up2Date
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\refint\OmniRoute.Infrastructure.dll
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.pdb
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.genruntimeconfig.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\ref\OmniRoute.Infrastructure.dll

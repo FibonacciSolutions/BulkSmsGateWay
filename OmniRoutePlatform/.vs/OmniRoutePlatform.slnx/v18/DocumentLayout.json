@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\middleware\\apikeyauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\middleware\\apikeyauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\entities\\messagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\entities\\messagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\services\\whatsappclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\services\\whatsappclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\configurations\\whatsappoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\configurations\\whatsappoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\omniroute.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\omniroute.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\controllers\\whatsappwebhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\controllers\\whatsappwebhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\migrations\\20260518093003_initialomnidbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\migrations\\20260518093003_initialomnidbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\configurations\\smsgatewayoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\configurations\\smsgatewayoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\services\\localsmsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\services\\localsmsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\security\\apikeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\security\\apikeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.api\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073FD75C-EB08-3DD8-A19D-0A0EF9ADC49D}|OmniRoute.Api\\OmniRoute.Api.csproj|solutionrelative:omniroute.api\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\interfaces\\imessagingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\interfaces\\imessagingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\services\\messagingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\services\\messagingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\entities\\messagetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\entities\\messagetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\interfaces\\iwhatsappclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\interfaces\\iwhatsappclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\interfaces\\ismsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\interfaces\\ismsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\entities\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\entities\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\omniroute.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\omniroute.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A1C59-2F8C-0A7E-950F-DF5AF0CA3A3C}|OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj|solutionrelative:omniroute.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|c:\\users\\sagar\\onedrive\\desktop\\bulksms system\\omnirouteplatform\\omniroute.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019B0914-FB59-09E8-0F9F-AA0C5D182576}|OmniRoute.Core\\OmniRoute.Core.csproj|solutionrelative:omniroute.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Program.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Program.cs",
+              "RelativeToolTip": "OmniRoute.Api\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowF4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:39:14.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiKeyAuthMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Middleware\\ApiKeyAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\Middleware\\ApiKeyAuthMiddleware.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Middleware\\ApiKeyAuthMiddleware.cs",
+              "RelativeToolTip": "OmniRoute.Api\\Middleware\\ApiKeyAuthMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:28:39.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "OmniRoute.Api\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwKYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:28:06.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:24:07.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageLog.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\MessageLog.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Entities\\MessageLog.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\MessageLog.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Entities\\MessageLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:13:57.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\appsettings.json",
+              "RelativeToolTip": "OmniRoute.Api\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T06:33:04.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WhatsAppClient.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\WhatsAppClient.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Services\\WhatsAppClient.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\WhatsAppClient.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Services\\WhatsAppClient.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:26:32.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WhatsAppOptions.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Configurations\\WhatsAppOptions.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Configurations\\WhatsAppOptions.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Configurations\\WhatsAppOptions.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Configurations\\WhatsAppOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:22:00.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OmniRoute.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\OmniRoute.Api.csproj",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\OmniRoute.Api.csproj",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\OmniRoute.Api.csproj",
+              "RelativeToolTip": "OmniRoute.Api\\OmniRoute.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-18T09:13:59.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WhatsAppWebhookController.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Controllers\\WhatsAppWebhookController.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\Controllers\\WhatsAppWebhookController.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\Controllers\\WhatsAppWebhookController.cs",
+              "RelativeToolTip": "OmniRoute.Api\\Controllers\\WhatsAppWebhookController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowF0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:39:46.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SmsGatewayOption.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Configurations\\SmsGatewayOption.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Configurations\\SmsGatewayOption.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Configurations\\SmsGatewayOption.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Configurations\\SmsGatewayOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:19:35.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260518093003_InitialOmniDbSetup.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Migrations\\20260518093003_InitialOmniDbSetup.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Migrations\\20260518093003_InitialOmniDbSetup.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Migrations\\20260518093003_InitialOmniDbSetup.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Migrations\\20260518093003_InitialOmniDbSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:30:03.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LocalSmsClient.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\LocalSmsClient.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Services\\LocalSmsClient.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\LocalSmsClient.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Services\\LocalSmsClient.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:26:43.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiKeyGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Security\\ApiKeyGenerator.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Security\\ApiKeyGenerator.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Security\\ApiKeyGenerator.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Security\\ApiKeyGenerator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:25:50.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Api\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Api\\DbInitializer.cs",
+              "RelativeToolTip": "OmniRoute.Api\\DbInitializer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:14:19.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMessagingEngine.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\IMessagingEngine.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Interfaces\\IMessagingEngine.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\IMessagingEngine.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Interfaces\\IMessagingEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T09:07:34.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessagingEngine.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\MessagingEngine.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Services\\MessagingEngine.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Services\\MessagingEngine.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Services\\MessagingEngine.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAowH0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:50:25.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MessageTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\MessageTemplate.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Entities\\MessageTemplate.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\MessageTemplate.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Entities\\MessageTemplate.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:22:49.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IWhatsAppClient.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\IWhatsAppClient.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Interfaces\\IWhatsAppClient.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\IWhatsAppClient.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Interfaces\\IWhatsAppClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:56:42.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ISmsclient.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\ISmsclient.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Interfaces\\ISmsclient.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Interfaces\\ISmsclient.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Interfaces\\ISmsclient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:55:44.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApiKey.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\ApiKey.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Entities\\ApiKey.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\ApiKey.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Entities\\ApiKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:22:31.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\Tenant.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Entities\\Tenant.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Entities\\Tenant.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Entities\\Tenant.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:13:29.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OmniRoute.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\OmniRoute.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-18T06:14:23.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "OmniRoute.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:04:40.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "OmniRoute.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\Class1.cs",
+              "RelativeToolTip": "OmniRoute.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:04:17.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

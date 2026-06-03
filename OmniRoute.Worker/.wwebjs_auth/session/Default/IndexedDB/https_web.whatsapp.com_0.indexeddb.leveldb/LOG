@@ -1,0 +1,41 @@
+2026/05/24-11:19:32.020 3cf8 Creating DB C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoute.Worker\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2026/05/24-11:19:32.053 3cf8 Reusing MANIFEST C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoute.Worker\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/24-11:20:57.138 19a4 Level-0 table #5: started
+2026/05/24-11:20:57.273 19a4 Level-0 table #5: 1107029 bytes OK
+2026/05/24-11:20:57.277 19a4 Delete type=0 #3
+2026/05/24-11:21:37.600 19a4 Level-0 table #7: started
+2026/05/24-11:21:37.636 19a4 Level-0 table #7: 964906 bytes OK
+2026/05/24-11:21:37.640 19a4 Delete type=0 #4
+2026/05/24-11:21:37.968 19a4 Compacting 1@1 + 1@2 files
+2026/05/24-11:21:38.052 19a4 Generated table #8@1: 19639 keys, 906955 bytes
+2026/05/24-11:21:38.052 19a4 Compacted 1@1 + 1@2 files => 906955 bytes
+2026/05/24-11:21:38.055 19a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/24-11:21:38.055 19a4 Delete type=2 #5
+2026/05/24-11:21:38.056 19a4 Delete type=2 #7
+2026/05/24-11:26:01.854 19a4 Level-0 table #10: started
+2026/05/24-11:26:02.171 19a4 Level-0 table #10: 1037538 bytes OK
+2026/05/24-11:26:02.232 19a4 Delete type=0 #6
+2026/05/24-11:26:10.549 19a4 Compacting 1@1 + 1@2 files
+2026/05/24-11:26:10.791 19a4 Generated table #11@1: 26274 keys, 1209841 bytes
+2026/05/24-11:26:10.791 19a4 Compacted 1@1 + 1@2 files => 1209841 bytes
+2026/05/24-11:26:10.877 19a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/24-11:26:10.879 19a4 Delete type=2 #8
+2026/05/24-11:26:10.879 19a4 Delete type=2 #10
+2026/05/25-15:05:26.167 3cf8 Level-0 table #13: started
+2026/05/25-15:05:27.004 3cf8 Level-0 table #13: 1045387 bytes OK
+2026/05/25-15:05:27.011 3cf8 Delete type=0 #9
+2026/05/25-15:05:27.995 19a4 Compacting 1@1 + 1@2 files
+2026/05/25-15:05:29.183 19a4 Generated table #14@1: 24097 keys, 1167665 bytes
+2026/05/25-15:05:29.184 19a4 Compacted 1@1 + 1@2 files => 1167665 bytes
+2026/05/25-15:05:29.189 19a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/25-15:06:08.248 19a4 Level-0 table #16: started
+2026/05/25-15:06:08.377 19a4 Level-0 table #16: 1026255 bytes OK
+2026/05/25-15:06:08.531 19a4 Delete type=2 #11
+2026/05/25-15:06:08.531 19a4 Delete type=0 #12
+2026/05/25-15:06:08.532 19a4 Delete type=2 #13
+2026/05/25-15:06:08.663 19a4 Compacting 1@1 + 1@2 files
+2026/05/25-15:06:09.025 19a4 Generated table #17@1: 28478 keys, 1361909 bytes
+2026/05/25-15:06:09.026 19a4 Compacted 1@1 + 1@2 files => 1361909 bytes
+2026/05/25-15:06:09.029 19a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/25-15:06:09.029 19a4 Delete type=2 #14
+2026/05/25-15:06:09.030 19a4 Delete type=2 #16
