@@ -9,6 +9,7 @@ C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infra
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.AssemblyInfo.cs
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.sourcelink.json
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRout.A294D07E.Up2Date
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\OmniRoute.Infrastructure.dll
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Infrastructure\obj\Debug\net8.0\refint\OmniRoute.Infrastructure.dll

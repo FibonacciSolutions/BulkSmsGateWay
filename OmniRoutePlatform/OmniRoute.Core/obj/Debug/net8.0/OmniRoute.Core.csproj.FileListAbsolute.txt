@@ -5,6 +5,7 @@ C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.AssemblyInfoInputs.cache
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.AssemblyInfo.cs
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.csproj.CoreCompileInputs.cache
+C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.sourcelink.json
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.dll
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\refint\OmniRoute.Core.dll
 C:\Users\sagar\OneDrive\Desktop\BulkSms System\OmniRoutePlatform\OmniRoute.Core\obj\Debug\net8.0\OmniRoute.Core.pdb

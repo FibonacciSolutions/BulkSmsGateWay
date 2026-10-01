@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\OmniRoute.Core.csproj": {
@@ -51,10 +52,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -86,19 +88,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -109,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -139,6 +141,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -153,10 +156,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -172,15 +176,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -188,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -218,6 +222,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\sagar\\OneDrive\\Desktop\\BulkSms System\\OmniRoutePlatform\\OmniRoute.Core\\OmniRoute.Core.csproj": {
@@ -236,10 +241,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -251,6 +257,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[10.0.9, )"
             }
           },
           "imports": [
@@ -267,15 +277,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -283,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

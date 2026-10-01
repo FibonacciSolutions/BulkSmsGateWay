@@ -1,10 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,111 +9,80 @@ namespace OmniRoute.Api.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class MessageController : ControllerBase
+    public class MessagesController : ControllerBase
     {
-        // 🚀 Using a dynamic service lookup to bypass strict compile-time namespace dependency blocks
         private readonly DbContext _context;
-        private readonly IHttpClientFactory _httpClientFactory;
 
-        public MessageController(IServiceProvider serviceProvider, IHttpClientFactory httpClientFactory)
+        // System Default Tenant Guid for NMC DiTi Client
+        private static readonly Guid SystemDefaultTenantId = Guid.Parse("e88adad2-82c1-48e1-a9f2-732bbcc3fbab");
+
+        public MessagesController(DbContext context)
         {
-            _httpClientFactory = httpClientFactory;
-
-            // Dynamically locates your registered ApplicationDbContext without needing the explicit using statement
-            foreach (var service in serviceProvider.GetServices<DbContext>())
-            {
-                _context = service;
-                break;
-            }
-
-            // Fallback default context assign if needed
-            _context ??= serviceProvider.GetRequiredService<DbContext>();
+            _context = context;
         }
 
-        // =========================================================================
-        // ROUTE ENTRYPOINT (Hits from Frontend / Client APIs)
-        // =========================================================================
-        [HttpPost("send")]
-        public async Task<IActionResult> SendMessage([FromBody] SendMessageRequest request)
+        /// <summary>
+        /// Simplified Batch Send for Clients (Automatically assigns TenantId and Priority)
+        /// </summary>
+        [HttpPost("batch-send")]
+        public async Task<IActionResult> BatchSend([FromBody] ClientBulkMessageRequest request)
         {
-            if (request == null || string.IsNullOrWhiteSpace(request.To) || string.IsNullOrWhiteSpace(request.TemplateCode))
+            if (request == null || request.Recipients == null || !request.Recipients.Any())
             {
-                return BadRequest(new { error = "Invalid parameters context." });
+                return BadRequest(new { error = "No recipients provided." });
             }
 
-            if (HttpContext.Items["TenantId"] is not Guid tenantId)
+            if (string.IsNullOrWhiteSpace(request.MessageText))
             {
-                return StatusCode(500, new { error = "Tenant context security mismatch." });
+                return BadRequest(new { error = "Message text cannot be empty." });
             }
 
             try
             {
-                var channelUsed = !string.IsNullOrWhiteSpace(request.ChannelPreference) ? request.ChannelPreference : "WhatsApp";
-                string deliveryStatus = "Dispatched";
-                string providerReference = "MOCK_REF";
-                string alertText = "OmniRoute SMS Alert:\nDear Parent, your child was marked present at school today.";
+                int successCount = 0;
 
-                // OPTION A: ROUTE VIA SELF-HOSTED WHATSAPP NODE
-                if (channelUsed.ToUpper() == "WHATSAPP")
+                foreach (var phone in request.Recipients)
                 {
-                    var client = _httpClientFactory.CreateClient();
-                    var workerPayload = new { to = request.To, message = alertText };
-                    var jsonContent = new StringContent(JsonSerializer.Serialize(workerPayload), Encoding.UTF8, "application/json");
+                    if (string.IsNullOrWhiteSpace(phone)) continue;
 
-                    var response = await client.PostAsync("http://localhost:5001/api/worker/send-whatsapp", jsonContent);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        deliveryStatus = "Delivered";
-                        providerReference = "FREE_WA_NODE_" + Guid.NewGuid().ToString().Substring(0, 6).ToUpper();
-                    }
-                    else
-                    {
-                        deliveryStatus = "WorkerConnectionFailed";
-                    }
-
-                    await LogMessageToDb(tenantId, request.To, providerReference, channelUsed, deliveryStatus, 0.70m);
-                }
-                // 🚀 OPTION B: ROUTE VIA LOCAL ANDROID SMS GATEWAY
-                else if (channelUsed.ToUpper() == "SMS")
-                {
-                    deliveryStatus = "Pending";
-                    providerReference = "ANDROID_OUTBOX_QUEUE";
-
-                    // Insert into outbox queue table so the phone can pull it down
                     await _context.Database.ExecuteSqlRawAsync(
-                        "INSERT INTO SmsOutbox (SmsId, TenantId, DestinationNumber, MessageText, DeliveryStatus, CreatedAt, UpdatedAt) " +
-                        "VALUES ({0}, {1}, {2}, {3}, {4}, {5}, {6})",
-                        Guid.NewGuid(), tenantId, request.To, alertText, "Pending", DateTime.UtcNow, DateTime.UtcNow
+                        "INSERT INTO SmsOutbox (SmsId, TenantId, DestinationNumber, MessageText, DeliveryStatus, Priority, Source, CreatedAt, UpdatedAt) " +
+                        "VALUES ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8})",
+                        Guid.NewGuid(), SystemDefaultTenantId, phone.Trim(), request.MessageText, "Pending", 1, "CLIENT_PORTAL", DateTime.UtcNow, DateTime.UtcNow
                     );
+
+                    successCount++;
                 }
 
                 return Ok(new
                 {
-                    message = $"Pipeline routing accepted via {channelUsed}.",
-                    delivery_status = deliveryStatus,
-                    provider_reference = providerReference
+                    success = true,
+                    totalQueued = successCount,
+                    message = $"Successfully queued {successCount} SMS job(s)."
                 });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { error = $"Engine processing exception: {ex.Message}" });
+                return StatusCode(500, new { error = $"Processing exception: {ex.Message}" });
             }
         }
 
-        // =========================================================================
-        // ANDROID LOOP ENDPOINT (The phone hits this endpoint to fetch messages)
-        // =========================================================================
+        /// <summary>
+        /// Android Gateway Device Polling Endpoint
+        /// </summary>
         [HttpGet("android-poll")]
         public async Task<IActionResult> AndroidPollPendingSms()
         {
             try
             {
-                // Clean dynamic execution to pull from the outbox queue cleanly
                 using var command = _context.Database.GetDbConnection().CreateCommand();
-                command.CommandText = "SELECT TOP 1 SmsId, DestinationNumber, MessageText FROM SmsOutbox WHERE DeliveryStatus = 'Pending' ORDER BY CreatedAt ASC";
+                command.CommandText = "SELECT TOP 1 SmsId, DestinationNumber, MessageText FROM SmsOutbox WHERE DeliveryStatus IN ('Pending', 'Processing') ORDER BY Priority ASC, CreatedAt ASC";
 
-                await _context.Database.OpenConnectionAsync();
+                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
+                {
+                    await _context.Database.OpenConnectionAsync();
+                }
+
                 using var reader = await command.ExecuteReaderAsync();
 
                 if (await reader.ReadAsync())
@@ -125,46 +91,37 @@ namespace OmniRoute.Api.Controllers
                     var destinationNumber = reader.GetString(1);
                     var messageText = reader.GetString(2);
 
-                    // Close reader to allow the update execution transaction loop to execute safely
                     await reader.CloseAsync();
 
-                    // Mark it as Processing so no other device grabs it
+                    // Transition status to Dispatched
                     await _context.Database.ExecuteSqlRawAsync(
-                        "UPDATE SmsOutbox SET DeliveryStatus = 'Processing', UpdatedAt = {0} WHERE SmsId = {1}",
+                        "UPDATE SmsOutbox SET DeliveryStatus = 'Dispatched', UpdatedAt = {0} WHERE SmsId = {1}",
                         DateTime.UtcNow, smsId
                     );
 
-                    return Ok(new
+                    return Ok(new[]
                     {
-                        sms_available = true,
-                        sms_id = smsId,
-                        to = destinationNumber,
-                        message = messageText
+                        new
+                        {
+                            id = smsId,
+                            phoneNumber = destinationNumber,
+                            message = messageText
+                        }
                     });
                 }
 
-                return Ok(new { sms_available = false, message = "No pending records inside the outbox table loop." });
+                return Ok(new object[] { });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { error = $"Polling node exception: {ex.Message}" });
+                return StatusCode(500, new { error = $"Polling exception: {ex.Message}" });
             }
-        }
-
-        private async Task LogMessageToDb(Guid tenantId, string to, string refId, string channel, string status, decimal cost)
-        {
-            await _context.Database.ExecuteSqlRawAsync(
-                "INSERT INTO MessageLogs (MessageId, TenantId, DestinationNumber, RequestedParametersJson, DispatchedChannel, DeliveryStatus, CostCharged, CreatedAt, UpdatedAt) " +
-                "VALUES ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8})",
-                Guid.NewGuid(), tenantId, to, refId, channel, status, cost, DateTime.UtcNow, DateTime.UtcNow
-            );
         }
     }
 
-    public class SendMessageRequest
+    public class ClientBulkMessageRequest
     {
-        public string To { get; set; } = string.Empty;
-        public string TemplateCode { get; set; } = string.Empty;
-        public string? ChannelPreference { get; set; }
+        public List<string> Recipients { get; set; } = new List<string>();
+        public string MessageText { get; set; } = string.Empty;
     }
 }

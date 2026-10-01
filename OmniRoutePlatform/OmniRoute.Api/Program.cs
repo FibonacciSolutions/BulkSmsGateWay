@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using OmniRoute.Api.Middleware;
@@ -6,31 +5,26 @@ using OmniRoute.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// =========================================================================
-// 1. REGISTER CORE ENGINE SERVICES (Dependency Injection Container)
-// =========================================================================
-
-// Allow Controllers to handle incoming endpoints
 builder.Services.AddControllers();
-
-// 🚀 THE CRITICAL FIX: Registers IHttpClientFactory to allow WhatsApp Node communications
 builder.Services.AddHttpClient();
 
-// Register your Entity Framework Core DB Context pointing to SQL Server connection string
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? "Server=(localdb)\\mssqllocaldb;Database=OmniRouteDb;Trusted_Connection=True;"));
+// Remote Database Connection
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? "Server=db69200.databaseasp.net;Database=db69200;User Id=db69200;Password=J!o7nB2?Q_s9;TrustServerCertificate=True;Encrypt=False;MultipleActiveResultSets=True;";
 
-// Configure Swagger/OpenAPI with Support for Custom API Key Authentication headers
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<DbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "OmniRoute Platform API Gateway", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "UpCode SMS API Gateway Engine", Version = "v1" });
 
-    // Add Security Definition for X-API-KEY header
     c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
     {
-        Description = "API Key authentication needed to access routing pipelines. Example: 'X-API-KEY Your_Secret_Key'",
+        Description = "Enter your secret API Key (Header: X-API-KEY)",
         In = ParameterLocation.Header,
         Name = "X-API-KEY",
         Type = SecuritySchemeType.ApiKey,
@@ -42,11 +36,7 @@ builder.Services.AddSwaggerGen(c =>
         {
             new OpenApiSecurityScheme
             {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "ApiKey"
-                },
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "ApiKey" },
                 In = ParameterLocation.Header
             },
             new List<string>()
@@ -54,42 +44,29 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// Configure CORS policy to allow your local React frontend (Port 5173) to fetch data safely
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactDashboard", policy =>
+    options.AddPolicy("AllowOmniRouteClients", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
 
 var app = builder.Build();
 
-// =========================================================================
-// 2. CONFIGURE THE HTTP REQUEST PIPELINE (Middleware Stack)
-// =========================================================================
-
-// Enable Developer Exception Page if running locally to trace database/endpoint errors easily
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OmniRoute.Api v1"));
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "UpCode SMS API v1");
+    c.RoutePrefix = "swagger";
+});
 
-// Enable CORS Policy across all route endpoints
-app.UseCors("AllowReactDashboard");
-
-// Enforce your custom API Key/Tenant Isolation validation middleware block
-app.UseMiddleware<ApiKeyAuthMiddleware>();
-
+app.UseCors("AllowOmniRouteClients");
 app.UseRouting();
 app.UseAuthorization();
 
-// Map your controller routes automatically (e.g., api/v1/Message/send)
-app.MapControllers();
+// Enforce API Key Middleware
+app.UseMiddleware<ApiKeyAuthMiddleware>();
 
-// Launch the system engine!
+app.MapControllers();
 app.Run();

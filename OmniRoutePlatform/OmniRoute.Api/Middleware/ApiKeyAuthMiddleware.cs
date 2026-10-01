@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace OmniRoute.Api.Middleware
 {
     public class ApiKeyAuthMiddleware
     {
         private readonly RequestDelegate _next;
+        private const string APIKEYNAME = "X-API-KEY";
+
+        // UpCode Production API Key
+        private const string UPCODE_API_KEY = "upcode_live_sec_key_2026_99a7b";
 
         public ApiKeyAuthMiddleware(RequestDelegate next)
         {
@@ -15,13 +18,27 @@ namespace OmniRoute.Api.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-            // Extract our active tenant GUID fetched from your SQL Server database
-            var devTenantGuid = System.Guid.Parse("A5922109-3357-4BE2-ACE5-5B530AF1DCF0"); // Replace with your real DB Guid if needed!
+            // Allow the Android Gateway Polling endpoint to bypass API key check
+            if (context.Request.Path.Value != null && context.Request.Path.Value.Contains("android-poll"))
+            {
+                await _next(context);
+                return;
+            }
 
-            context.Items["TenantId"] = devTenantGuid;
-            context.Items["Tenant"] = "dev_test_tenant";
-            context.Items["ClientId"] = "dev_test_client";
-            context.Items["OrganizationId"] = "dev_test_org";
+            // Enforce API Key on all other endpoints (including batch-send)
+            if (!context.Request.Headers.TryGetValue(APIKEYNAME, out var extractedApiKey))
+            {
+                context.Response.StatusCode = 401;
+                await context.Response.WriteAsync("Unauthorized: X-API-KEY header is missing.");
+                return;
+            }
+
+            if (!UPCODE_API_KEY.Equals(extractedApiKey))
+            {
+                context.Response.StatusCode = 401;
+                await context.Response.WriteAsync("Unauthorized: Invalid API Key provided.");
+                return;
+            }
 
             await _next(context);
         }
